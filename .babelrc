@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    // "react-refresh/babel",
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-modules-commonjs"
+  ]
+}

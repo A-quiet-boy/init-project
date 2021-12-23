@@ -1,0 +1,23 @@
+.pdf{
+    display: flex;
+    color: #1890ff;
+    border-radius: 4px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+  }
+  .value{
+    margin-left: 10px;
+  }
+  .upload {
+    :global {
+      .ant-upload {
+        &.ant-upload-select-picture-card {
+          width: 100%;
+        }
+      }
+      .home-editor {
+        height: 35% !important;
+      }
+    }
+  }

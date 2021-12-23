@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+  提示：CSS 样式只允许修改颜色属性，或图片的地址（图片大小要和默认的一致）。border:dotted solid double dashed
+*/
+*:focus {
+  outline: none;
+}
+:global {
+  /* fade */
+  /* drag */
+  /* jbox */
+  /* border */
+  /* container */
+  /* title-panel */
+  /* content */
+  /* button-panel */
+  /* tip-color */
+  /* icons */
+}
+:root {
+  /*定义一个变量*/
+  --multiple: 1;
+  --calScrollHeight: 0;
+  --calScrollTime: '5s';
+  --calCallScrollTime: '5s';
+  --calCallScrollNum: 0;
+}
+:global .ant-layout-sider-collapsed {
+  flex: 0 0 64px !important;
+  max-width: 64px !important;
+  min-width: 64px !important;
+  width: 64px !important;
+}
+:global .ant-layout-sider-collapsed .ant-menu-inline-collapsed {
+  width: 64px !important;
+}
+p {
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.title {
+  color: #ffffff;
+  line-height: 64px;
+  font-size: 20px;
+  margin: 0 20px;
+  overflow: hidden;
+  cursor: pointer;
+  word-wrap: break-word;
+}
